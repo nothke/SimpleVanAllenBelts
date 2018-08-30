@@ -1,9 +1,9 @@
 # SimpleVanAllenBelts
 SDF based Van Allen belt sampler, implemented in C# (Unity)
 
-A crude approximation of Van Allen belts made by adding and subtracting toroidal belt SDFs. Made to run fast and is NOT supposed to be scientifically precise. To be primarily used for entertainment.
+A crude approximation of [Van Allen radiation belts](https://en.wikipedia.org/wiki/Van_Allen_radiation_belt) made by adding and subtracting toroidal belt SDFs. Made to run fast and consistently and is NOT supposed to be scientifically precise. To be primarily used for entertainment.
 
-Because it is signed distance function based, it doesn't suffer from undersampling as a voxel-data based solution would. The data is just a few scalar parameters. On the other hand it doesn't simulate changes of shape [yet], or local deviations.
+Because it is [signed distance function](https://en.wikipedia.org/wiki/Signed_distance_function) based, it doesn't suffer from undersampling as a voxel-data based solution would. The data is just a few scalar parameters. On the other hand it doesn't simulate changes of shape [yet], or local deviations.
 
 It is single precision based, but can be easily upgraded to double precision (there's very little code actually).
 
