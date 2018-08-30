@@ -11,7 +11,7 @@ It is single precision based, but can be easily upgraded to double precision (th
 <img src="https://github.com/nothke/SimpleVanAllenBelts/blob/master/doc/Unity_2018-08-30_19-58-43.png" width="500">
 </p>
 
-A "poor man's" voxel previewer using gizmos, and a sample of Earth's belts is included, not based on any hard data, [just approximated off a plot](https://github.com/nothke/SimpleVanAllenBelts/blob/master/doc/Unity_2018-08-30_19-55-38.png?raw=true) (scalled by a factor of 1,000,000)
+A "poor man's" voxel previewer using gizmos, and a sample of Earth's belts is included. The Earth example is not based on any hard data, [just approximated off a plot](https://github.com/nothke/SimpleVanAllenBelts/blob/master/doc/Unity_2018-08-30_19-55-38.png?raw=true) (scaled by a factor of 1,000,000)
 
 <p align="center">
 <img src="https://github.com/nothke/SimpleVanAllenBelts/blob/master/doc/slice2.gif" width="500">
