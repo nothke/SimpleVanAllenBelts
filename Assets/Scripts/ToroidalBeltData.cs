@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [CreateAssetMenu(fileName = "Belt", menuName = "Orbital/Toroidal Belt Data")]
 public class ToroidalBeltData : ScriptableObject

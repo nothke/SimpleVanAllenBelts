@@ -1,5 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿#if UNITY_EDITOR
+
 using UnityEngine;
 
 public class SDFDrawer : MonoBehaviour
@@ -56,3 +56,4 @@ public class SDFDrawer : MonoBehaviour
         }
     }
 }
+#endif
