@@ -18,5 +18,6 @@ I needed it for a thing where a spacecraft passing through radiation belts would
 
 ### How to create belts and use it
 To Create a new ToroidalBelt, right click in project window > Orbital > Toroidal Belt Data.
+Each belt is composed of 2 toruses (tori?). The resulting value is first torus minus second torus (like relative complement in sets: A ∖ B). r1 is the major radius, while r2 is the minor radius. stretch is how elliptical the torus tube (r2) will be. in_ values are values for the second torus. To preview it, you can drop your Toroidal Belt Data asset into the previewer in preview scene.
 
-To sample it, use myToroidalBeltData.Sample(yourPosition).
+To sample a value from it, use myToroidalBeltData.Sample(yourPosition).
