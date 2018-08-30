@@ -31,6 +31,7 @@ public class ToroidalBeltData : ScriptableObject
         return v;
     }
 
+    // From https://iquilezles.org/www/articles/distfunctions/distfunctions.htm by Inigo Quilez
     float SDFTorus(Vector3 p, float r1, float r2, float stretch)
     {
         Vector2 p_xz = new Vector2(p.x * stretch, p.z * stretch);
