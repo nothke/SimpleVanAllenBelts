@@ -5,6 +5,8 @@ A crude approximation of Van Allen belts made by adding and subtracting toroidal
 
 Because it is signed distance function based, it doesn't suffer from undersampling as a voxel-data based solution would. The data is just a few scalar parameters. On the other hand it doesn't simulate changes of shape [yet], or local deviations.
 
+It is single precision based, but can be easily upgraded to double precision (there's very little code actually).
+
 <p align="center">
 <img src="https://github.com/nothke/SimpleVanAllenBelts/blob/master/doc/Unity_2018-08-30_19-58-43.png" width="500">
 </p>
